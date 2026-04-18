@@ -14,19 +14,44 @@
 
 <body>
   <header class="text-white text-center d-flex align-items-center"
-    style="height: 400px; background: url('imagens/fundo.jpg') center/cover no-repeat; position: relative;">
+  style="height: 400px; position: relative; overflow: hidden;">
 
-    <div style="position: absolute; top:0; left:0; width:100%; height:100%; background-color: rgba(0,0,0,0.5);"></div>
+  
+  <div id="carouselHeader" class="carousel slide position-absolute w-100 h-100" data-bs-ride="carousel">
+    <div class="carousel-inner h-100">
 
-    <div class="container position-relative">
-      <h1 class="display-4 fw-bold">Bem-vindo a Portugal</h1>
-      <p class="lead">Explore cultura, história e sabores incríveis</p>
+      <div class="carousel-item active h-100">
+        <img src="imagens/fundo.jpg" class="d-block w-100 h-100" style="object-fit: cover;">
+      </div>
 
-      <img src="imagens/bandeira-portugal.jpg" class="img-fluid mt-3 rounded shadow" style="max-width: 250px;"
-        alt="Bandeira de Portugal">
+      <div class="carousel-item h-100">
+        <img src="imagens/carrosel1.jpg" class="d-block w-100 h-100" style="object-fit: cover;">
+      </div>
+
+      <div class="carousel-item h-100">
+        <img src="imagens/carrosel2.jpg" class="d-block w-100 h-100" style="object-fit: cover;">
+      </div>
+
+      <div class="carousel-item h-100">
+        <img src="imagens/carrosel3.jpg" class="d-block w-100 h-100" style="object-fit: cover;">
+      </div>
+
     </div>
+  </div>
 
-  </header>
+  <!-- escuresse -->
+  <div style="position: absolute; top:0; left:0; width:100%; height:100%; background-color: rgba(0,0,0,0.5);"></div>
+
+  <!-- conteudo -->
+  <div class="container position-relative">
+    <h1 class="display-4 fw-bold">Bem-vindo a Portugal</h1>
+    <p class="lead">Explore cultura, história e sabores incríveis</p>
+
+    <img src="imagens/bandeira-portugal.jpg" class="img-fluid mt-3 rounded shadow"
+      style="max-width: 250px;" alt="Bandeira de Portugal">
+  </div>
+
+</header>
   <main>
     
     <div class="container mt-5">
