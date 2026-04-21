@@ -23,3 +23,6 @@ header {
   position: relative;
   z-index: 2;
 }
+.text-center {
+   color: #025f2b;
+}
