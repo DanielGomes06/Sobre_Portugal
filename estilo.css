@@ -26,3 +26,8 @@ header {
 .text-center {
    color: #025f2b;
 }
+.header-banner {
+   height: 500px; 
+   position: relative;
+   
+}
