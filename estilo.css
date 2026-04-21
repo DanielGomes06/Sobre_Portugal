@@ -8,7 +8,18 @@ nav {
    background-color: rgb(230, 0, 0);
    height: 50px;
 }
-
+.navbar-collapse {
+  background-color: rgb(230, 0, 0);
+}
 footer {
    background-color: rgb(230, 0, 0)
+}
+header {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar {
+  position: relative;
+  z-index: 2;
 }
